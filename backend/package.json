@@ -4,14 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon auth.ts",
+    "auth": "nodemon auth.ts"
   },
   "author": "Herman Bremnes",
   "license": "GPL-3.0",
   "dependencies": {
     "@types/express": "^4.17.17",
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
+    "express-jwt": "^8.4.1",
+    "jsonwebtoken": "^9.0.0",
     "mqtt": "^4.3.7",
+    "nodemon": "^2.0.21",
     "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.1"
   }
 }
