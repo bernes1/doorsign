@@ -1,0 +1,3 @@
+[submodule "sign/RPI-PICO-I2C-LCD"]
+	path = sign/RPI-PICO-I2C-LCD
+	url = https://github.com/T-622/RPI-PICO-I2C-LCD.git
